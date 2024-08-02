@@ -26,6 +26,9 @@ export default {
         "grey-clr": "#8B8BA5",
         "light-clr": "#FFFFFF95",
       },
+      fontFamily: {
+        cormorant: ["Cormorant Infant", "ui-sans-serif", "system-ui"],
+      },
     },
   },
 };
