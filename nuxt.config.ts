@@ -33,6 +33,9 @@ export default defineNuxtConfig({
       Quicksand: {
         wght: [400, 500, 600, 700],
       },
+      'Cormorant Infant': {
+        wght: [600],
+      },
     },
     display: 'swap',
   },
