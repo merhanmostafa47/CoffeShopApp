@@ -1,0 +1,27 @@
+{
+  "name": "coffeShopApp",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/image": "^1.4.0",
+    "@nuxt/ui": "^2.15.0",
+    "nuxt": "^3.11.1",
+    "nuxt-swiper": "^1.2.2",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/color-mode": "^3.4.2",
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "nuxt-aos": "^1.2.4",
+    "nuxt-icon": "^0.6.10",
+    "nuxt-marquee": "^1.0.3"
+  }
+}
