@@ -12,7 +12,7 @@ useParallax(".service-img");
 </script>
 
 <template>
-  <section class="my-20 lg:my-48">
+  <section class="my-20 lg:my-40">
     <div
       class="relative grid grid-cols-1 lg:grid-cols-2 items-center gap-8 px-8 md:px-14 lg:px-20"
     >

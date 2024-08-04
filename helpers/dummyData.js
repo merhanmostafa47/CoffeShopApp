@@ -27,6 +27,7 @@ export const dummyData = {
       },
     ],
   },
+
   services: {
     img: "/images/service_img.svg",
     title: "Welcome to Our shop",
@@ -55,6 +56,64 @@ export const dummyData = {
         title: "quick",
         img: "/images/services/service_4.svg",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      },
+    ],
+  },
+
+  products: {
+    title: "Our products",
+    desc: "Special to Try",
+    categories: [
+      {
+        id: 1,
+        title: "All categories",
+      },
+      {
+        id: 2,
+        title: "Special offers",
+      },
+      {
+        id: 3,
+        title: "Roasting",
+      },
+      {
+        id: 4,
+        title: "Coffee",
+      },
+      {
+        id: 5,
+        title: "Coffee equipment",
+      },
+    ],
+    products: [
+      {
+        id: 1,
+        img: "/images/products/product_1.svg",
+        title: "Brazilan Rosted Coffee",
+        subtitle: "Amir Samantha",
+        rating: 5,
+      },
+      {
+        id: 2,
+        img: "/images/products/product_2.svg",
+        title: "Brazilan Rosted Coffee",
+        subtitle: "John Lennonk",
+        rating: 5,
+      },
+      {
+        id: 3,
+        img: "/images/products/product_3.svg",
+        title: "Brazilan Rosted Coffee",
+        subtitle: "Toekang Sayoer",
+        rating: 5,
+        offer: "-30%",
+      },
+      {
+        id: 4,
+        img: "/images/products/product_4.svg",
+        title: "Brazilan Rosted Coffee",
+        subtitle: "Imelda Saranghae",
+        rating: 5,
       },
     ],
   },
