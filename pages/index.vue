@@ -7,5 +7,9 @@ import { dummyData } from "~/helpers/dummyData";
     <!-- =================== Start:: Hero Section ===================-->
     <HeroSection :section-data="dummyData.hero" />
     <!-- =================== End:: Hero Section ===================-->
+
+    <!-- =================== Start:: Clients Section ===================-->
+    <ClientsSection />
+    <!-- =================== End:: Clients Section ===================-->
   </main>
 </template>
