@@ -46,7 +46,7 @@ useParallax(".coffee-img");
 </script>
 
 <template>
-  <footer class="relative main-gardient py-20">
+  <footer class="relative main-gardient py-10 lg:py-20">
     <div class="absolute -top-2/3 end-0 z-10 xl:block hidden">
       <NuxtImg
         src="/images/footer_img.svg"

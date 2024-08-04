@@ -11,5 +11,9 @@ import { dummyData } from "~/helpers/dummyData";
     <!-- =================== Start:: Clients Section ===================-->
     <ClientsSection />
     <!-- =================== End:: Clients Section ===================-->
+
+    <!-- =================== Start:: Services Section ===================-->
+    <ServicesSection :section-data="dummyData.services" />
+    <!-- =================== End:: Services Section ===================-->
   </main>
 </template>
