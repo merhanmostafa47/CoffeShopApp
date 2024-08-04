@@ -39,6 +39,10 @@ const socials = ref([
     to: "https://linkedin.com/",
   },
 ]);
+
+// Parallax Image Effect
+import useParallax from "@/composables/parallax.js";
+useParallax(".coffee-img");
 </script>
 
 <template>
@@ -50,7 +54,8 @@ const socials = ref([
         width="390"
         height="605"
         loading="lazy"
-        class="w-full h-full object-contain"
+        class="coffee-img w-full h-full object-contain"
+        data-speed="200"
       />
     </div>
     <UContainer class="max-w-2xl mx-auto">

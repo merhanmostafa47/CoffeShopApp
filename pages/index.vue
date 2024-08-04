@@ -1,5 +1,11 @@
-<script setup></script>
+<script setup>
+import { dummyData } from "~/helpers/dummyData";
+</script>
 
 <template>
-  <main></main>
+  <main>
+    <!-- =================== Start:: Hero Section ===================-->
+    <HeroSection :section-data="dummyData.hero" />
+    <!-- =================== End:: Hero Section ===================-->
+  </main>
 </template>
