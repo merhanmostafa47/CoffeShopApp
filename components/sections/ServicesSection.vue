@@ -76,7 +76,7 @@ useParallax(".service-img");
         height="200"
         width="200"
         loading="lazy"
-        class="h-40 lg:h-auto w-auto"
+        class="h-40 lg:h-56 w-auto"
       />
     </div>
   </section>
